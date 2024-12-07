@@ -35,8 +35,17 @@ const searchWeather = () =>{
         }
         else{
             main.classList.add('error');
+            setTimeout(() =>{
+                main.classList.remove('error');
+            }, 1000);
         }
 
         userInput.value = '';
     })
 }
+const initApp = () => {
+    userInput.value = 'Mamou';
+    searchWeather();
+}
+
+initApp();

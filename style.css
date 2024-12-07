@@ -21,13 +21,18 @@ main{
     height: max-content;
     min-height: 300px;
     background-color: #ffffff;
+    /* background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)),
+                  url("./image/forest.jpg"); */
     border-radius: 30px;
+    background-size: 300px 520px;
     box-shadow: 0 30px 50px #5553;
     padding: 30px;
     box-sizing: border-box;
+    
 }
 main form{
-    border: 1px solid #5553;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    background-color: #ffffff;
     display: flex;
     justify-content: space-between;
     border-radius: 30px;
